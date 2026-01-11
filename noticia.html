@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Núcleo UCM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logos/favicon.ico">
+</head>
+<body>
+    <!-- HEADER DO SEU SITE AQUI -->
+
+    <main class="single-news-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="noticias.html">Notícias</a> / 
+                <span id="newsTitle"></span>
+            </div>
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h1 id="articleTitle"></h1>
+                    <div class="article-meta">
+                        <span id="articleDate"></span>
+                        <span class="author">Por Núcleo UCM</span>
+                    </div>
+                </div>
+
+                <div class="article-image">
+                    <img id="articleImage" src="" alt="">
+                </div>
+
+                <div class="article-content" id="articleContent">
+                    <!-- Conteúdo carregado via JavaScript -->
+                </div>
+
+                <div class="article-footer">
+                    <div class="share-buttons">
+                        <span>Compartilhar:</span>
+                        <a href="#" class="share-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <div class="related-news">
+                <h2>Notícias Relacionadas</h2>
+                <div class="related-grid" id="relatedGrid">
+                    <!-- Notícias relacionadas carregadas via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER DO SEU SITE AQUI -->
+
+    <script src="js/database.js"></script>
+    <script src="js/news.js"></script>
+</body>
+</html>

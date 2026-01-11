@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas as Notícias - Núcleo UCM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logos/favicon.ico">
+</head>
+<body>
+    <!-- HEADER DO SEU SITE AQUI -->
+
+    <main class="all-news-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Todas as Notícias</h1>
+                <p>Fique por dentro de todas as novidades do Núcleo UCM</p>
+            </div>
+
+            <div class="news-filter">
+                <div class="search-box">
+                    <input type="text" id="searchNews" placeholder="Pesquisar notícias...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <select id="newsFilter">
+                    <option value="recent">Mais recentes</option>
+                    <option value="oldest">Mais antigas</option>
+                </select>
+            </div>
+
+            <div class="all-news-grid" id="allNewsGrid">
+                <!-- Todas as notícias carregadas via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER DO SEU SITE AQUI -->
+
+    <script src="js/database.js"></script>
+    <script src="js/all-news.js"></script>
+</body>
+</html>
