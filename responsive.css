@@ -1,0 +1,85 @@
+/* css/responsive.css - Responsividade geral */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .membros-header nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 0;
+    }
+    
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .user-toggle {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .user-avatar {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .dropdown-menu {
+        min-width: 180px;
+    }
+    
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .activity-item,
+    .task-item,
+    .event-item,
+    .announcement-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .activity-icon {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .membros-main {
+        padding: 10px;
+    }
+    
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .card-header h3 {
+        font-size: 1.1rem;
+    }
+    
+    .stat-content h3 {
+        font-size: 1.8rem;
+    }
+    
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
